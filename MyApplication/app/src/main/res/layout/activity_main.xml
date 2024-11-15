@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Daftar Musik"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#000080"/>
+
+    <ListView
+        android:id="@+id/songList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="UnknownId" />
+</RelativeLayout>
